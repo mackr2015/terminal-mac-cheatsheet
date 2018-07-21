@@ -101,9 +101,10 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | cp [file] [newfile] | Copy file to file |
 | cp [file] [dir] | Copy file to directory |
 | cp -av [dir] [dir] | Copy directory and its content to new directory ref link https://www.cyberciti.biz/faq/copy-folder-linux-command-line/ |
-| wget -O /home/Desktop/NewFile "http://thecanadiantestbox.x10.mx/CC.zip" will download this zip file into a newly created folder called "NewFile"
+| wget -O /home/Desktop/NewFile "http://thecanadiantestbox.x10.mx/CC.zip" | will download this zip file into a newly created folder called "NewFile" |
 | mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |
 | mv [directory] [directory] | Move/Rename directory to a new location |
+| mv -t DestinationFolder file1 file2 file3 | Move multiple files to a new destination |
 | pbcopy < [file] | Copies file contents to clipboard |
 | pbpaste | Paste clipboard contents |
 | pbpaste > [file] | Past clipboard contents into file, `pbpaste > paste-test.txt` |
